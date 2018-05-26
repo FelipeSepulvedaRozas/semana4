@@ -9,3 +9,25 @@ border-color: white;
 border:15px;
 margin: 0px;
 }
+
+@media(max-width: 480px)
+{
+.min-cell{
+	width: 100%;
+}
+}
+
+p
+{
+font-size: 90%;
+}
+
+.border{
+	border-style: solid;
+	border:2px;
+	border-color:black; 
+}
+.center{
+	text-align: center;
+	align-content: center;
+}
