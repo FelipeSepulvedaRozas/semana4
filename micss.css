@@ -2,24 +2,24 @@
 
 .img
 {
-width: 50%;
-border-radius: 10%;
-border-style: solid;
-border-color: white;
-border:15px;
-margin: 0px;
+	width: 50%;
+	border-radius: 10%;
+	border-style: solid;
+	border-color: white;
+	border:15px;
+	margin: 0px;
 }
 
 @media(max-width: 480px)
 {
-.min-cell{
-	width: 100%;
-}
+	.min-cell{
+		width: 100%;
+	}
 }
 
 p
 {
-font-size: 90%;
+	font-size: 90%;
 }
 
 .border{
@@ -28,6 +28,10 @@ font-size: 90%;
 	border-color:black; 
 }
 .center{
-	text-align: center;
-	align-content: center;
+	text-align: left;
+	justify-content: center;
+}
+footer{
+	text-align: left;
+	justify-content: left;
 }
